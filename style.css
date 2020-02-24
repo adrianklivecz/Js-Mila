@@ -1,34 +1,56 @@
 body {
-    margin:0;
-    font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .header {
-    width: 100%;
-    height: 80;
-    background-color: black;
-    display:flex;
-    align-items: center;
+  width: 100%;
+  height: 80;
+  background-color: black;
+  display: flex;
+  align-items: center;
 }
 
 #logo {
-    height:80px;
-    max-width: 100%;
-    margin-left: 10px;
+  height: 80px;
+  max-width: 100%;
+  margin-left: 10px;
 }
 
 .header-buttons {
-    color: white;
-    display:flex;
-    margin-left: 30px;
-    text-decoration: none;
-
+  color: white;
+  display: flex;
+  margin-left: 30px;
+  text-decoration: none;
 }
 
 #search {
-    margin-left: auto;
-    margin-right: 10px;
-    padding:5px;
-    width:12.2%;
- 
+  margin-left: auto;
+  margin-right: 10px;
+  padding: 5px;
+  width: 12.2%;
+}
+
+.meals-index {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.meals-index p {
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.meal-img {
+  height: 250px;
+}
+
+.meal-page {
+  margin-left: 20px;
+}
+
+.meal-navigation {
+  display: flex;
+  justify-content: space-around;
+  font-size: 25px;
 }
