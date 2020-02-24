@@ -1,0 +1,80 @@
+<html>
+    <header>
+        <title>JS-Milla</title>
+        <link rel= "stylesheet" type="text/css" href="style.css"/>
+    </header>
+    <body>
+    <div class= "header">
+        <a href = "index.html"><img id= "logo" src="logo.png" alt="logo"/></a>
+        <a class="header-buttons" href="about.html">ABOUT</a>
+        <a class="header-buttons" href="food.html">FOOD INSPIRATION</a>
+        <a class="header-buttons" href="contact.html">CONTACT</a>
+    </div>
+
+    <div id ="form-container">
+        <div id = "header-form">
+        <H2>Here is our contact form</H2>
+        </div>
+        <div class="row-of-form">
+          <div class="form-label">
+            <label for="fname">First Name: </label>
+          </div>
+          <div class="form-field">
+            <input type="text" class="placeholder-form" name="firstname" placeholder="Write here your first name...">
+          </div>
+        </div>
+        <div class="row-of-form">
+          <div class="form-label">
+            <label for="lname">Last Name: </label>
+          </div>
+          <div class="form-field">
+            <input type="text" class="placeholder-form" name="lastname" placeholder="Write here your last name...">
+          </div>
+        </div>
+        <div class="row-of-form">
+            <div class="form-label">
+              <label for="e-mail">E-mail: </label>
+            </div>
+            <div class="form-field">
+              <input type="text" class="placeholder-form" name="e-mail" placeholder="Write here your e-mail...">
+            </div>
+          </div>
+        <div class="row-of-form">
+          <div class="form-label">
+            <label for="scope-of-message">Do you want to...</label>
+          </div>
+          <div class="field-form">
+            <select id="option-form" name="scope-of-message">
+              <option value="send-receipe">send us a good recipe</option>
+              <option value="send-complaint">to make a complaint</option>
+              <option value="send-a-message">send us a different message</option>
+            </select>
+          </div>
+        </div>
+        <div class="row-of-form">
+          <div class="form-label">
+            <label for="subject">Subject</label>
+          </div>
+          <div class="field-form">
+            <textarea class="placeholder-form" name="subject" placeholder="Write here your message"></textarea>
+          </div>
+        </div>
+        <div class="row-of-form">
+          <input type="submit" id= "submit-button-form" value="Submit">
+        </div>
+      </form>
+    </div>
+    </div>
+
+    <div id = "map-container">
+        <div id = "map-header">  
+            <H2> We are right here, right now </H2>
+        </div>
+    <div id="map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2732.095626054111!2d23.605597315010304!3d46.782720052518705!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47490e8375e7294d%3A0xc84348602537ad40!2s%C5%9Ecoala%20informal%C4%83%20de%20IT!5e0!3m2!1sen!2sro!4v1582484972518!5m2!1sen!2sro" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+    </div>
+    </div>
+
+    <script src = "form.js"></script>
+    </body>
+</html>

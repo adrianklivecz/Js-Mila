@@ -1,0 +1,91 @@
+body {
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+    width: 100%;
+    height: 80;
+    background-color: black;
+    display:flex;
+    align-items: center;
+}
+
+#logo {
+    height:80px;
+    max-width: 100%;
+    margin-left: 10px;
+}
+
+.header-buttons {
+    color: white;
+    display:flex;
+    margin-left: 30px;
+    text-decoration: none;
+
+}
+
+#search {
+    margin-left: auto;
+    margin-right: 10px;
+    padding:5px;
+    width:12.8%;
+ 
+}
+
+.img-carousel {
+    height: 250px;
+    width: 250px;
+    margin: 10px;
+}
+
+#form-container {
+    display:inline-block;
+    border: 1px black solid;
+    border-radius:3px;
+    width: 300px;
+    padding:0px 50px 15px;
+    margin: 10px 80px 1px;
+}
+
+.form-label{
+    display: inline-block;
+    padding: 12px 12px 12px 0;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.placeholder-form, #option-form {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  resize: vertical;
+}
+
+#submit-button-form{
+    margin: 25px 115px 5px;
+    display: flex;
+    background-color: green;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+}
+
+#map-container {
+    display:inline-block;
+    margin: 10px 100px 15px;
+}
+
+#map-header {
+    text-align: center;
+}
+
+.form-label, .field-form {
+    width: 100%;
+    margin-top: 0;
+}
